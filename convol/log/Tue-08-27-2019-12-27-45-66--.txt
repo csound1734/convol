@@ -1,0 +1,11 @@
+0dBFS level = 32768.0
+--Csound version 6.13 beta (double samples) Jul 12 2019
+[commit: 9818d93e3416f44c4251b5b8d76171032eb67cda]
+libsndfile-1.0.29pre1
+WARNING: could not open library 'C:\Program Files\Csound6_x64\plugins64\\py.dll' (-1)
+UnifiedCSD:  cs1*.csd
+Reading CSD failed (Invalid argument)... stopping
+end of score.		   overall amps:      0.0
+	   overall samples out of range:        0
+1 errors in performance
+Elapsed time at end of performance: real: 0.005s, CPU: 0.005s
