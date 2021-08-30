@@ -1,0 +1,364 @@
+0dBFS level = 32768.0
+--Csound version 6.13 beta (double samples) Jul 12 2019
+[commit: 9818d93e3416f44c4251b5b8d76171032eb67cda]
+libsndfile-1.0.29pre1
+WARNING: could not open library 'C:\Program Files\Csound6_x64\plugins64\\py.dll' (-1)
+UnifiedCSD:  cs1.csd
+STARTING FILE
+Creating options
+Creating orchestra
+closing tag
+Creating score
+rtaudio: PortAudio module enabled ...
+using callback interface
+rtmidi: PortMIDI module enabled
+Elapsed time at end of orchestra compile: real: 0.007s, CPU: 0.008s
+sorting score ...
+	... done
+Elapsed time at end of score sort: real: 0.008s, CPU: 0.008s
+graphics suppressed, ascii substituted
+0dBFS level = 32768.0
+orch now loaded
+audio buffered in 4096 sample-frame blocks
+PortAudio V19.6.0-devel, revision unknown
+   0: dac0 (Microsoft Sound Mapper - Output [MME])
+   1: dac1 (Speakers (Realtek High Definiti [MME])
+   2: dac2 (Primary Sound Driver [Windows DirectSound])
+   3: dac3 (Speakers (Realtek High Definition Audio) [Windows DirectSound])
+   4: dac4 (Speakers (Realtek High Definition Audio) [Windows WASAPI])
+   5: dac5 (Speakers (Realtek HD Audio output) [Windows WDM-KS])
+   6: dac6 (Headset Earphone (@System32\drivers\bthhfenum.sys,#2;%1 Hands-)
+   7: dac7 (Speakers () [Windows WDM-KS])
+   8: dac8 (Speakers () [Windows WDM-KS])
+   9: dac9 (Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;)
+  10: dac10 (Speakers () [Windows WDM-KS])
+  11: dac11 (Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;)
+PortAudio: selected output device 'Speakers (Realtek High Definiti'
+writing 4096 sample blks of 64-bit floats to dac
+SECTION 1:
+ftable 1:
+audio sr = 44100, monaural
+opening WAV infile D:\hopsed\s\237105.wav
+ftable 1:	65536 points, scalemax 1.000
+ _
+
+   '
+
+
+  _ .'
+_______'________________________________________________________________________
+         '
+ftable 2:
+audio sr = 44100, monaural
+opening WAV infile D:\hopsed\s\237106.wav
+ftable 2:	65536 points, scalemax 1.000
+ '  .
+__'__'_-'_______________________________________________________________________
+         '   '  '''
+      '
+   _
+ftable 3:
+audio sr = 44100, monaural
+opening WAV infile D:\hopsed\s\196733.wav
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 249931 exceeds ftsize 65536
+non-deferred ftable 3 needs size 262144
+ftable 3:	65536 points, scalemax 1.000
+     _
+               -
+   '        -
+       _      '    -   -
+ -       '
+    .           -   -   _            _
+__________.______________________________-____''__-.___._'__-.-__-______________
+           _         '    -_'   .     --  -         .'_   .    '' ' '' '-'''--'
+                  '   _        '   '    '  _-
+             -           -   ''  -  .
+  .
+      .
+        -        .
+ftable 4:
+audio sr = 44100, monaural
+opening WAV infile D:\hopsed\s\171479.wav
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 467896 exceeds ftsize 65536
+non-deferred ftable 4 needs size 524288
+ftable 4:	65536 points, scalemax 1.000
+     .
+ .    .                    _  .           _
+   .                    -                -           _                        _.
+____-__'__________________________'_-'_.____-__.-_''___.-___-____._______.._____
+'       .  ' .   -'      .  _   -  .    _     -  '  ' _   -- _.'    . -_-  . '
+          '          -_                    _ _                  .
+  .            .               _ _                       '
+              -    '      .
+         .             _
+ftable 5:
+audio sr = 44100, stereo, reading channel 1
+opening WAV infile D:\hopsed\s\153404.wav
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 229548 exceeds ftsize 65536
+non-deferred ftable 5 needs size 262144
+ftable 5:	65536 points, scalemax 1.000
+    _
+
+         .     '_.                '
+______________-_____.____-__________'__.__--_____.___.____________._____________
+       '  '' '       -  - .__--.-' .  _     '.''   '' _' ' -- - -   ' '' - '
+ '   _      .          '
+  _.    '         '
+      -
+ftable 6:
+audio sr = 44100, monaural
+opening AIFF infile D:\hopsed\s\425431.aiff
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 233799 exceeds ftsize 65536
+non-deferred ftable 6 needs size 262144
+ftable 6:	65536 points, scalemax 1.000
+     .
+
+         .
+
+   .-      __
+       -      _     _             '         _
+_____________-_-_.'______''___-______-.___'__-__.____-_._-_______-'_-_._.__.____
+ ..       .     '       '    '      _  '._    --  ' ' _ -  '- . '    - -  '  ' -
+        -              -   -_  '-  -             '
+      -            '  -
+ftable 7:
+audio sr = 44100, monaural
+opening AIFF infile D:\hopsed\s\91790.aiff
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 143296 exceeds ftsize 65536
+non-deferred ftable 7 needs size 262144
+ftable 7:	65536 points, scalemax 1.000
+       '
+         .-  -    _
+ '      -  .     .    -   _-
+____'___________'_______________._______.______-__.__.____._____________________
+   _  _                 __  _ -' '    '' - '-'' '  '. '''- '''.'''''''-''''-'--'
+  -                -_'       '     '
+     -         '
+              '
+
+
+            -
+ftable 8:
+WARNING: D:\hopsed\s\213943.wav sr = 96000, orch sr = 44100.0
+audio sr = 96000, monaural
+opening WAV infile D:\hopsed\s\213943.wav
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 401850 exceeds ftsize 65536
+non-deferred ftable 8 needs size 524288
+ftable 8:	65536 points, scalemax 1.000
+            '
+                 _                                -
+                              .              '              -
+                   -_                   '     -  '                   _ - .   _
+______-_______'__________-______..__-_._____-__________-________.___.______-.___
+''  .     .          -_      . _                .    .  -- . .   ' _  - _     '_
+   -    ._ .   .                  '_   _ -.        ''         '.
+     -                  _ _                .
+       -          '    .             -         _          '
+             _  -
+
+                            '
+ftable 9:
+WARNING: D:\hopsed\s\344209.wav sr = 48000, orch sr = 44100.0
+audio sr = 48000, stereo, reading channel 1
+opening WAV infile D:\hopsed\s\344209.wav
+ftable 9:	65536 points, scalemax 1.000
+  -
+
+
+_.______________________________________________________________________________
+   '' ''''
+ftable 10:
+audio sr = 44100, monaural
+opening WAV infile D:\hopsed\s\3538.wav
+ftable 10:	65536 points, scalemax 1.000
+ _
+  '
+'
+___-____________________________________________________________________________
+    '.- '-''''--'''''''''''
+ftable 11:
+audio sr = 44100, monaural
+opening WAV infile D:\hopsed\s\3543.wav
+ftable 11:	65536 points, scalemax 1.000
+__-_..__________________________________________________________________________
+   _  ''-'-'''''''''''
+
+ .
+ftable 12:
+WARNING: D:\hopsed\s\176760.wav sr = 96000, orch sr = 44100.0
+audio sr = 96000, monaural
+opening WAV infile D:\hopsed\s\176760.wav
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 529500 exceeds ftsize 65536
+non-deferred ftable 12 needs size 1048576
+ftable 12:	65536 points, scalemax 1.000
+  _
+_____-__._______________________________________________________________________
+    .  .  '   '   ''    '  ''    ' ''   '' ''''''    '  '''  '' ''''   '   '  ''
+
+ _
+                    _
+ftable 13:
+WARNING: D:\hopsed\s\176761.wav sr = 96000, orch sr = 44100.0
+audio sr = 96000, monaural
+opening WAV infile D:\hopsed\s\176761.wav
+WARNING: GEN1: file truncated by ftable size
+WARNING: 	audio samps 402000 exceeds ftsize 65536
+non-deferred ftable 13 needs size 524288
+ftable 13:	65536 points, scalemax 1.000
+           .
+     .    _ '             _
+________.._____..__.____.___.______._____.___.____________________._______._____
+ ' ''         .   _ '''' '     '- '   _-' ''   '   ''  ''  '  '    '   '   '
+                             '      _
+                                     .
+ftable 101127:
+ftable 101127:	131072 points, scalemax 32768.000
+                                                            ____________________
+                                                          _-
+                                                        _-
+                                                      _-
+                                                    _-
+                                                  _-
+                                                _-
+                                              _-
+                                            _-
+                                          _-
+_________________________________________-______________________________________
+                                      _-
+                                    _-
+                                  _-
+                                _-
+                              _-
+                            _-
+                          _-
+                        _-
+                      _-
+_____________________-
+ftable 10805:
+ftable 10805:	131072 points, scalemax 1.000
+                                                                          __.--'
+                                                                     _.--'
+                                                                _.--'
+                                                            _.-'
+                                                         .-'
+                                                     _.-'
+                                                  _-'
+                                               .-'
+                                            .-'
+_________________________________________.-'____________________________________
+                                     _.-
+                                  _.-
+                               _.-
+                            _.'
+                        _.-'
+                     _.-
+                 _.-'
+            _..-'
+       _..-'
+__..-''
+ftable 10807:
+ftable 10807:	131072 points, scalemax 32768.000
+                                                                          __.--'
+                                                                     _.--'
+                                                                _.--'
+                                                            _.-'
+                                                         .-'
+                                                     _.-'
+                                                  _-'
+                                               .-'
+                                            .-'
+_________________________________________.-'____________________________________
+                                     _.-
+                                  _.-
+                               _.-
+                            _.'
+                        _.-'
+                     _.-
+                 _.-'
+            _..-'
+       _..-'
+__..-''
+ftable 12234:
+ftable 12234:	131072 points, scalemax 32768.000
+                                                       _--'''''--_
+                                                    _-'           '-_
+                                                  _-                 -_
+                                                 -                     .
+                                               _'                       '_
+                                              -                           -
+                                            _'                             '_
+                                           .                                 .
+                                          -                                   -
+_________________________________________'_____________________________________'
+'_                                     _
+  .                                   .
+   -                                 -
+    '_                             _'
+      .                           .
+       '_                       _'
+         -                     -
+          '.                 .'
+            '._           _.'
+               '.._____..'
+ftable 12235:
+ftable 12235:	131072 points, scalemax 32768.000
+                            -'''-                                   -'''.
+                          _'     '_                               _'     '_
+                         _         _                             _         _
+
+                        '           '                           '           '
+                       -             -                         -             -
+                      _               _                       _               _
+
+                     -                 -                     -                 -
+________________________________________________________________________________
+'                                       '
+ .                 .                     .                 .
+
+  '               '                       '               '
+   .             .                         .             .
+    _           _                           _           _
+
+     '         '                             '         '
+      '_     _'                               '_     _'
+        .___.                                   .___.
+new alloc for instr 188:
+WARNING: instr 188 uses 8 p-fields but is given 9
+ftable 101:
+ftable 101:	8388608 points, scalemax 0.000
+B  0.000 ..  2.000 T  2.000 TT  2.000 M:      0.1
+new alloc for instr 188:
+WARNING: instr 188 uses 8 p-fields but is given 9
+ftable 102:
+ftable 102:	8388608 points, scalemax 0.000
+B  2.000 ..  4.000 T  4.000 TT  4.000 M:  11288.8
+new alloc for instr 188:
+WARNING: instr 188 uses 8 p-fields but is given 9
+ftable 103:
+ftable 103:	8388608 points, scalemax 0.000
+B  4.000 ..  6.000 T  6.000 TT  6.000 M:   6565.5
+new alloc for instr 188:
+WARNING: instr 188 uses 8 p-fields but is given 9
+ftable 104:
+ftable 104:	8388608 points, scalemax 0.000
+B  6.000 .. 10.000 T 10.000 TT 10.000 M:  20928.2
+B 10.000 .. 12.000 T 12.000 TT 12.000 M:   8432.7
+B 12.000 .. 14.000 T 14.000 TT 14.000 M:      3.8
+B 14.000 .. 16.000 T 16.000 TT 16.000 M:      0.1
+Score finished in csoundPerform().
+inactive allocs returned to freespace
+end of score.		   overall amps:  20928.2
+	   overall samples out of range:        0
+0 errors in performance
+Elapsed time at end of performance: real: 16.681s, CPU: 16.681s
+closing device
+173 4096 sample blks of 64-bit floats written to dac

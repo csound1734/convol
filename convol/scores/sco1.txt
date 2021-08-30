@@ -1,0 +1,46 @@
+
+;begin soundfile input
+f 1 0 65536 1 "D:/hopsed/s/237105.wav" 0 0 1 ;ting1
+f 2 0 65536 1 "D:/hopsed/s/237106.wav" 0 0 1 ;ting2
+f 3 0 [65536*2] 1 "D:/hopsed/s/196733.wav" 0 0 1 ;crash1
+f 4 0 [65536*2] 1 "D:/hopsed/s/171479.wav" 0 0 1 ;crash2
+f 5 0 [65536*2] 1 "D:/hopsed/s/153404.wav" 0 0 1 ;crash3
+f 6 0 [65536*2] 1 "D:/hopsed/s/425431.aiff" 0 0 1 ;crash4
+f 7 0 [65536*2] 1 "D:/hopsed/s/91790.aiff" 0 0 1 ;crash5
+f 8 0 [65536*2] 1 "D:/hopsed/s/213943.wav" 0 0 1 ;crash6
+f 9 0 65536 1 "D:/hopsed/s/344209.wav" 0 0 1 ;kiss1
+f 10 0 65536 1 "D:/hopsed/s/3538.wav" 0 0 1 ;tonk1
+f 11 0 65536 1 "D:/hopsed/s/3543.wav" 0 0 1 ;tonk2
+f 12 0 [65536*2] 1 "D:/hopsed/s/176760.wav" 0 0 1 ;egg1
+f 13 0 [65536*2] 1 "D:/hopsed/s/176761.wav" 0 0 1 ;egg2
+; second "generation"
+f 30 0 [2^23] 1 "D:/hopsed/s/Tue-08-27-2019-13-17-05-07--.wav" 0 0 1 ;a previous output
+f 31 0 [2^23] 24 30 -1 1 ;a previous output
+;third generation
+f 47 0 [2^23] 1 "D:/hopsed/s/Tue-08-27-2019-14-02-26-22--.wav" 0 0 1
+f 48 0 [2^23] 24 47 -1 1
+;end
+
+;begin waveshaping functions
+f 101127 0 [65536*2] -7 -32768 [32768] -32768 65536 32768 [32768] 32768 ;wavefolding limiter
+f 10805 0 [65536*2] "tanh" -1 1 0
+f 10807 0 [65536*2] -24 10805 -32768 32768
+f 12234 0 [65536*2] -19 1 32768 180 0
+f 12235 0 [65536*2] -19 2 32768 180 0
+;end
+
+;begin performance
+/*
+; --------   sound inputs - scale - waveshaper   
+i 196 00 20   10 9 12 6 7 8   3     10807                            
+i 196 05 20   11 9 12 6 7 8   3     10807
+i 196 10 20   10 9 13 6 3 8   3     10807
+i 196 15 20   11 9 13 6 3 8   3     10807
+i 196 20 20   10 9 12 4 3 8   3     10807
+i 196 25 20   11 9 13 4 3 8   3     10807
+*/
+
+i 187 00 90   47 48         .25     10807
+;end
+
+f 0 2
